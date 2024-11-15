@@ -1,0 +1,203 @@
+MICROSOFT COPILOT  
+VS.  
+GOOGLE GEMINI  
+BY: OLIVIA POLOS 
+
+Please find below a report analyzing and comparing Microsoft Copilot and Google Gemini software. 
+Benchmarks used in the analysis included code generation and integration, data visualization and summarization, 
+creative writing, image generation and user interface.  
+ 
+
+TABLE COMPARISONS 
+ 
+
+FEATURE 
+COPILOT 
+GEMINI 
+CODE GENERATION 
+Strong focus on real-time code completion; code was clearer  
+Understood task but code was both unclear and robust  
+CODE INTEGRATION 
+Deep integration with Microsoft services  
+Less extensive integration with Google services  
+DATA VISUALIZATION 
+Strong integration with Excel, easy to use  
+Embedding data in Google Pages is more difficult (requires more steps)   
+CREATIVITY 
+More focused on practical and informative writing  
+Strong in imaginative writing  
+CONTEXTUAL UNDERSTANDING  
+Strong contextual understanding 
+Maintains context well across multiple prompts  
+INTEGRATION 
+Deeply integrated with Microsoft 365 
+Standalone interface with some Google Workspace integration 
+INTERFACE STYLE 
+Conversational, contextual; offers several variations (balanced, creative, precise) 
+Clean interface; simplistic  
+USER EXPERIENCE  
+Seamless, especially for Microsoft 365 users  
+Requires more manual input  
+ 
+
+ 
+
+PROMPT/RESPONSE COMPARISONS 
+Schedule a Meeting  
+Gemini:  
+Prompt: “Schedule a meeting with the team for next Monday.” 
+Result: “What do you want to call this meeting?” 
+“General meeting”  
+“General meeting has been scheduled for next Monday.”  
+Copilot: 
+Prompt: “Schedule a meeting with the team for next Monday.” 
+Result: “Sure! Here’s a draft for scheduling a meeting with your team for next Monday:  
+Subject: Team Meeting – Monday, November 11th  
+Hi Team,  
+I hope this message finds you well.  
+I would like to schedule a team meeting for next Monday, November 11th, to discuss our upcoming projects and any other important updates. Please let me know your availability so we can finalize the time.  
+Propose Agenda: 
+Project updates 
+Upcoming deadlines 
+Team feedback and suggestions 
+Any other business 
+Looking forward to your responses.  
+Best regards,  
+[Your Name]”  
+ 
+
+
+Create a Budget Plan 
+Gemini: 
+Prompt: “Create a budget plan for the next quarter.” 
+Result: “I don’t see any tasks about budget, income, or expense for the next quarter.” 
+Gemini tried integrating with Google Workspace without consulting the user first and was therefore unable to find relevant information to make the budget. That said, it required more prompting to direct Gemini, making Copilot the better choice in this situation.  
+Copilot 
+Prompt: “Create a budget plan for the next quarter.” 
+Result: Copilot generated a quarterly budget plan that consisted of categories income, fixed expenses, variable expenses, savings and investments, and summary. All the categories were populated with more specific fund allocations and included equations to guide the user in developing an actual budget.  
+Write a Blog Post 
+Gemini  
+Prompt: “Write a blog post about the benefits of remote work.” 
+Result: “Remote work offers flexibility, reduces commute time, and increases productivity. Employees can work from anywhere, leading to a better work-life balance.”  
+Copilot 
+Prompt: “Write a blog post about the benefits of remote work.” 
+Result: “Remote work provides numerous benefits, including flexibility, reduced commute time, and increased productivity. Employees can work from anywhere, which enhances work-life balance. Detailed sections and formatting included in Word.  
+This was the only prompt/response analysis I felt was similar enough to disregard. While Copilot’s was a bit longer, both offered detailed descriptions of the benefits of remote work. I felt the discrepancy in length was the only difference and was therefore not strong enough to give either software a stronger case.  
+ 
+
+ 
+
+ 
+
+Create a To-Do List 
+Gemini 
+Prompt: “Create a to-do list for today.” 
+Result: “Alright, I created a reminder titled ‘To-do list for today.’  
+Google tasks: to-do list for today (empty) 
+Copilot 
+Prompt: “Create a to-do list for today.” 
+Result: 
+Morning Routine 
+Wake up and freshen up  
+Have breakfast 
+Exercise or stretch 
+Work/Study Tasks 
+Check and respond to emails 
+Attend any scheduled meetings or classes  
+Complete project/task 1  
+Work on project/task 2  
+Personal Tasks 
+Run errands (e.g., grocery shopping) 
+Call or message a friend or family member  
+Read a book or article  
+Evening Routine  
+Prepare and have dinner  
+Relax or engage in a hobby  
+Plan for tomorrow 
+Wind down and get ready for bed  
+
+
+ 
+
+Code Generation  
+Gemini  
+Prompt: “Generate a Python code snippet to read a CSV file.” 
+Result: 
+import CSV 
+def read_csv_file(file_path) 
+ 
+“”” Reads a CSV file and returns its contents as a list of lists.”” 
+ 
+with open(file_path, ‘r’) as file: 
+reader = csv.reader(file) 
+data = list(reader) 
+return data 
+ 
+# example usage  
+file_path = ‘your_file.csv’ # replace with your actual file 	path  
+data = read_csv_file(file_path) 
+ 
+# print first 5 rows of data  
+for row in data[:5]: 
+print(row)  
+Code is unclear and hard to follow; is more complicated than it needs to be  
+Copilot 
+Prompt: “Generate a Python code snippet to read a CSV file.” 
+Result: 
+import pandas as pd 
+file_path = ‘your_file.csv’ 
+data = pd.read_csv(file_path) 
+print(data.head()) 
+   
+To run this code, make sure you have the pandas library 		installed; you can install it using pip: 
+ 
+pip install pandas 
+If you need any more help with this, feel free to ask!  
+ 
+Code is clearer and easier to follow than Gemini’s; comments are better organized and easier to understand. 
+Gemini’s also had awkward spaces where some of the code was hard to see  
+Image Generation  
+Gemini 
+Prompt: “Generate an image of an owl.” 
+Result: 
+ 
+Copilot 
+Prompt: “Generate an image of an owl.” 
+Result:  
+ 
+I would also like to note that upon integrating Copilot with Microsoft Edge, Microsoft’s browser, users are given the choice between 3 
+different “versions” of Copilot- precise, balanced and creative. It also allows users to choose where the information is coming from; 
+the general internet or the web page open while searching.   
+ 
+
+SUMMARY 
+In conclusion, from my findings, I believe Microsoft’s Copilot is the better software to be used. I say this because it is better 
+integrated with Microsoft 365 than Gemini is with Google workspace. 
+
+Tasks were easier to have done in office tools in Copilot than they were to have done in workspace apps in Gemini.
+Next, Copilot’s code generation and integration was stronger than Google Gemini’s. When asked to generate a snippet that read a CSV file, 
+Google Gemini’s code was unclear, too robust, and hard to follow. The comments strung throughout were hard to follow and unorganized. 
+Copilot’s code snippet was much more concise- only measuring a few lines long in length- and was easier to integrate into an IDE like 
+Visual Studio Code.  
+
+In creating a to-do list, Microsoft’s Copilot also pulled ahead. Google Gemini’s to do list was empty, and all it did was create a 
+titled list in google tasks- but it was unpopulated. Copilot, on the other hand, provided a clear template populated with items for 
+todays to do list.  
+
+As far as the blog posts go, both software's provided good writing. Gemini’s output was a little longer, but not by much, and the content was 
+all about the same. That said, I felt this was one of the only examples that did not have a clearer stronger software.  
+
+When creating a budget, Copilot generated a template that consisted of spending categories populated by variables specifying 
+fund allocation. It did so without any more information than the request for the budget. Gemini, on the other hand, struggled with 
+this prompt; it tried integrating the budget with Google Workspace without the user’s consent and therefore complicated the process 
+by requiring more prompting to clarify.  
+
+Lastly, both engines provided similar output in regard to image generation. 
+When asked to provide an image of an owl, Copilot’s was a little more abstract than Gemini’s, but 
+both provided solid output. This reaffirmed by belief that Copilot performs better in tasks requiring high factual accuracy, 
+while Gemini performs well in creative and conversational tasks and sometimes struggles with factual accuracy.  
+
+That said, my findings have shown Microsoft Copilot to be a better choice than Google Gemini. 
+It provided better output for the same prompt in different contexts several times.  
+
+ 
